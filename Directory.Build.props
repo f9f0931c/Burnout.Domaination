@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>Burnout.$([System.Text.RegularExpressions.Regex]::Replace("$(MSBuildProjectName)", ".Abstractions$", ""))</RootNamespace>
+    </PropertyGroup>
+</Project>
